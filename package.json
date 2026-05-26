@@ -6,12 +6,15 @@
   "directories": {
     "test": "tests"
   },
-"scripts": {
-  "test": "playwright test",
-  "report": "playwright show-report"
-},
+  "scripts": {
+    "test": "playwright test",
+    "report": "playwright show-report"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs"
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  }
 }
